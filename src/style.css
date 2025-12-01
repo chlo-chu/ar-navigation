@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  overflow: hidden; /* Hides scrollbars */
+}
+canvas {
+  display: block; /* Removes tiny white space at bottom of canvas */
+}
