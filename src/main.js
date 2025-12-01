@@ -94,7 +94,7 @@ createArrow(-7, -18, 1.0);
 
 const loader = new THREE.TextureLoader();
 
-loader.load('/makersign.png', (texture) => {
+loader.load('./makersign.png', (texture) => {
     
     // 1. MAKE IT BIGGER
     // Changed from (1, 0.5) to (1.5, 0.75) -> 50% larger
